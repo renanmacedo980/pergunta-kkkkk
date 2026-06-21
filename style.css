@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ffe4ec;
+    font-family:Arial;
+    overflow:hidden;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    color:#ff0066;
+}
+
+button{
+    padding:15px 35px;
+    margin:20px;
+    font-size:22px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+}
+
+#sim{
+    background:#ff4d88;
+    color:white;
+}
+
+#nao{
+    background:#444;
+    color:white;
+    position:absolute;
+}
+
+#mensagem{
+    margin-top:40px;
+    font-size:30px;
+    color:#ff0066;
+    font-weight:bold;
+}
